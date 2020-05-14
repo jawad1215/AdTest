@@ -17,5 +17,10 @@ class MainActivity : AppCompatActivity() {
         val adRequest = AdRequest.Builder().build()
         mAdView.loadAd(adRequest)
 
+
+    }
+
+    override fun onResume() {
+        super.onResume()
     }
 }
